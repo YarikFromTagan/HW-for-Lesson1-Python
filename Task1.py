@@ -5,16 +5,16 @@
 # - 7 -> да
 # - 1 -> нет
 
-print('\n' * 100)
+import os
+os.system("cls")
 day = int(input("Введите номер дня недели "))
 print('\n')
 if 1 <= day <= 5:
     print('Этот день недели рабочий')
     print('\n')
-else: 
-    if day == 6 or day == 7:
+elif day == 6 or day == 7:
         print('Этот день недели выходной')
         print('\n')
-    else:
-        print('Дня недели с таким номером не существует!')
-        print('\n')
+else:
+    print('Дня недели с таким номером не существует!')
+    print('\n')

@@ -6,8 +6,8 @@
 
 from math import sqrt
 
-
-print('\n'*100)
+import os
+os.system('cls')
 xA = int(input('Для точки А введите координату ХA = '))
 yA = int(input('Для точки А введите координату YA = '))
 xB = int(input('Для точки B введите координату ХB = '))
